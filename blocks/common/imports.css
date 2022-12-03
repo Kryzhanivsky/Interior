@@ -1,0 +1,10 @@
+@import url(index.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../home/home.css);
+@import url(../propositions/propositions.css);
+@import url(../arrivals/arrivals.css);
+@import url(../reviews/reviews.css);
+@import url(../top-products/top-products.css);
+@import url(../latest-articles/latest-articles.css);
+@import url(../footer/footer.css);

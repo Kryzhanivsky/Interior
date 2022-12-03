@@ -1,0 +1,81 @@
+.top-products {
+  margin: 0 0 100px 0; }
+  .top-products__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center; }
+  .top-products__title {
+    margin: 0 0 30px; }
+  .top-products__more-btn {
+    margin: 0 0 30px;
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #1b1a1a;
+    transition: all 0.2s ease;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1b1a1a; }
+    .top-products__more-btn:hover {
+      color: #ffffff;
+      background: #1b1a1a; }
+  .top-products__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px 30px;
+    margin: 0 0 110px; }
+  .top-products__benefits {
+    width: 100%;
+    padding: 15px;
+    background: #1c1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+  .top-products__benefit {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center; }
+    .top-products__benefit-icon {
+      margin: 0 15px 0 0;
+      width: 47px;
+      height: 38px;
+      fill: #ffffff; }
+    .top-products__benefit-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; }
+    .top-products__benefit-title {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      color: #ffffff; }
+    .top-products__benefit-subtitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+      color: #ffffff; }
+    .top-products__benefit:not(:last-child) {
+      padding: 0 0 15px 0;
+      margin: 0 0 15px 0;
+      border-bottom: 1px solid #a6a6a6; }
+  @media screen and (min-width: 576px) {
+    .top-products__benefits {
+      padding: 50px; } }
+  @media screen and (min-width: 768px) {
+    .top-products__heading {
+      flex-direction: row;
+      justify-content: space-between; } }
+  @media screen and (min-width: 992px) {
+    .top-products__benefits {
+      flex-direction: row; }
+    .top-products__benefit:not(:last-child) {
+      padding: 0 15px 0 0;
+      margin: 0 15px 0 0;
+      border-bottom: none;
+      border-right: 1px solid #a6a6a6; } }
